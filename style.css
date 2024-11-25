@@ -328,8 +328,8 @@ button {
 }
 footer {
   background-color: #263238;
-  width: 1, 002.34px;
-  height: 229.21px;
+  /* width: 1, 002.34px;
+  height: 229.21px; */
   /* display: flex; */
   display: flex;
   justify-content: space-around;
@@ -342,16 +342,56 @@ footer {
   padding-right: 100px;
   padding-top: 50px;
   font-size: 9px;
-  padding-bottom: 0px;
+  /* padding-bottom: 0px; */
+  color: white;
 }
 .right-2 {
   padding-right: 100px;
   padding-top: 50px;
   font-size: 9px;
+  gap: 5px;
+  color: white;
 }
 .right-3 {
   padding-top: 50px;
 }
 .foot-left {
   padding-top: 50px;
+}
+.r1 {
+  font-size: 17px;
+  padding-top: 27px;
+  color: white;
+}
+.r3 {
+  font-size: 17px;
+  padding-top: 27px;
+  color: white;
+}
+.right-1 p {
+  margin-top: -25px;
+  color: #f5f7fa;
+}
+.right-2 p {
+  margin-top: -25px;
+  color: #f5f7fa;
+}
+.right-3 p {
+  color: white;
+  font-size: 17px;
+  padding-bottom: -5px;
+}
+.note-r1 {
+  font-size: 9px;
+}
+.note-r2 {
+  font-size: 9px;
+}
+input {
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #dad8d8;
+}
+.futter {
+  color: white;
 }
